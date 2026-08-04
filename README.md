@@ -67,3 +67,25 @@ The website is built with:
 - GitHub Pages
 
 Repository structure:
+/
+├── index.html
+├── philosophy.html
+├── method.html
+├── about.html
+├── contact.html
+└── cases/
+├── index.html
+└── techkwadraat-zeeland.html
+
+
+---
+
+## Status
+
+The Inspirions Lab is an evolving workspace.
+
+It is used to explore ideas, develop cases and demonstrate how structure, technology and human capability can reinforce each other.
+
+---
+
+© The Inspirions Lab
