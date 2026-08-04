@@ -1,28 +1,61 @@
 # The Inspirions Lab
 
-**Structure serves Purpose.**
+## Structure serves Purpose.
 
-The Inspirions Lab is a digital workspace exploring how people, technology, learning and systems thinking can reinforce each other.
+The Inspirions Lab is a digital workspace exploring how purpose, people, technology and structure can reinforce each other.
+
+Complex challenges rarely fail because technology is missing. They fail when purpose, processes, information and people are not aligned.
+
+The Lab explores how organisations can create environments where people can learn, contribute and improve systems together.
+
+---
 
 ## Vision
 
-Many organisations struggle not because they lack technology or knowledge, but because the connection between purpose, people and processes is missing.
+Many organisations have access to technology and knowledge, but struggle to transform these into meaningful progress.
 
-The Inspirions Lab explores practical ways to design environments where:
+The Inspirions Lab explores practical approaches where:
 
-- people can learn and contribute;
-- technology supports human capability;
-- projects become learning systems;
-- structure enables purpose instead of limiting it.
+- purpose guides decisions;
+- people remain central in system design;
+- technology creates insight instead of complexity;
+- structures enable collaboration and learning;
+- projects become opportunities for capability development.
 
-## Areas of exploration
+---
+
+## Approach
+
+The Lab combines:
 
 - Systems Thinking
 - TRIZ methodology
 - AI-assisted collaboration
 - Project Management & PMO
+- Human-centred technology
 - Learning ecosystems
-- Technology and education
+
+The goal is not to add more complexity, but to create clarity in complexity.
+
+---
+
+## Lab Cases
+
+### Techkwadraat Zeeland
+
+PMO+ exploration:
+strengthening collaboration, programme structure and learning within regional technology education.
+
+### Engineering Intelligence
+
+Exploring information structures, parametrisation and decision support to connect engineering expertise with commercial reality.
+
+### Hotel Transformation
+
+A complete ecosystem approach:
+from business case and construction to technology, operations and guest experience.
+
+---
 
 ## Website
 
@@ -33,6 +66,4 @@ The website is built with:
 - JavaScript
 - GitHub Pages
 
----
-
-© The Inspirions Lab
+Repository structure:
