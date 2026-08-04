@@ -208,9 +208,6 @@
                   <p>
                   Connecting education, government and industry partners.
                   </p>
-									<ul class="actions">
-										<li><a href="#" class="button style1">Learn More</a></li>
-									</ul>
 								</section>
 							</div>
 							<div class="col-4 col-12-medium">
@@ -223,9 +220,6 @@
                   <p>
                   Turning experiences into reusable knowledge.
                   </p>
-									<ul class="actions">
-										<li><a href="#" class="button style1">Learn More</a></li>
-									</ul>
 								</section>
 							</div>
 						</div>
@@ -333,7 +327,11 @@
 			
 			const href = `mailto:${to}?subject=${subject}&body=${body}`;
 			
-			document.getElementById("contact-email").href = href;
+			const emailLink = document.getElementById("contact-email");
+
+			if (emailLink) {
+			    emailLink.href = href;
+			}
 			</script>
 	</body>
 </html>
