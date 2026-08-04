@@ -318,43 +318,23 @@
 									<section class="feature-list small">
 										<div class="row">
 											<div class="col-6 col-12-small">
-												<section>
-													<h3 class="icon solid fa-home">Mailing Address</h3>
-													<p>
-														Untitled Corp<br />
-														1234 Somewhere Rd<br />
-														Nashville, TN 00000
-													</p>
-												</section>
+											<section>
+											    <h3 class="icon solid fa-envelope">
+											    Email
+											    </h3>
+											
+											    <p>
+											    <a id="contact-email" href="#">
+											    Start a conversation
+											    </a>
+											    </p>
+											</section>
 											</div>
 											<div class="col-6 col-12-small">
 												<section>
-													<h3 class="icon solid fa-comment">Social</h3>
+													<h3 class="icon solid fa-linkedin">LinkedIn</h3>
 													<p>
-														<a href="#">@untitled-corp</a><br />
-														<a href="#">linkedin.com/untitled</a><br />
-														<a href="#">facebook.com/untitled</a>
-													</p>
-												</section>
-											</div>
-											<div class="col-6 col-12-small">
-												<section>
-													<h3 class="icon solid fa-envelope">
-													Email
-													</h3>
-
-													<p>
-													<a href="#">
-													sjirk-jan@inspirions.nl
-													</a>
-													</p>
-												</section>
-											</div>
-											<div class="col-6 col-12-small">
-												<section>
-													<h3 class="icon solid fa-phone">Phone</h3>
-													<p>
-														(000) 555-0000
+														<a href="https://www.linkedin.com/in/sjirkloogman">www.linkedin.com/in/sjirkloogman</a>
 													</p>
 												</section>
 											</div>
@@ -380,6 +360,22 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
+		<script>
+			const to = "sjirk-jan@inspirions.nl";
+			
+			const subject = encodeURIComponent(
+			"The Inspirions Lab - Conversation"
+			);
+			
+			const body = encodeURIComponent(
+			"Hello Sjirk-Jan,\n\n" +
+			"I would like to explore possibilities with The Inspirions Lab.\n\n" +
+			"Kind regards,"
+			);
+			
+			const href = `mailto:${to}?subject=${subject}&body=${body}`;
+			
+			document.getElementById("contact-email").href = href;
+			</script>
 	</body>
 </html>
