@@ -32,31 +32,45 @@
 
 					<!-- Nav -->
 						<nav id="nav">
-							<ul>
-								<li><a href="index.html">Home</a></li>
-								<li>
-									<a href="#">Dropdown</a>
-									<ul>
-										<li><a href="#">Lorem ipsum</a></li>
-										<li><a href="#">Magna veroeros</a></li>
-										<li><a href="#">Etiam nisl</a></li>
-										<li>
-											<a href="#">Sed consequat</a>
-											<ul>
-												<li><a href="#">Lorem dolor</a></li>
-												<li><a href="#">Amet consequat</a></li>
-												<li><a href="#">Magna phasellus</a></li>
-												<li><a href="#">Etiam nisl</a></li>
-												<li><a href="#">Sed feugiat</a></li>
-											</ul>
-										</li>
-										<li><a href="#">Nisl tempus</a></li>
-									</ul>
-								</li>
-								<li><a href="left-sidebar.html">Left Sidebar</a></li>
-								<li><a href="right-sidebar.html">Right Sidebar</a></li>
-								<li class="current"><a href="no-sidebar.html">No Sidebar</a></li>
-							</ul>
+						<ul>
+						
+						<li>
+						<a href="../index.html">
+						Home
+						</a>
+						</li>
+						
+						<li>
+						<a href="../philosophy.html">
+						Philosophy
+						</a>
+						</li>
+						
+						<li>
+						<a href="../method.html">
+						Method
+						</a>
+						</li>
+						
+						<li class="current">
+						<a href="index.html">
+						Cases
+						</a>
+						</li>
+						
+						<li>
+						<a href="../about.html">
+						About
+						</a>
+						</li>
+						
+						<li>
+						<a href="../contact.html">
+						Contact
+						</a>
+						</li>
+						
+						</ul>
 						</nav>
 
 				</section>
@@ -76,9 +90,12 @@
 									</h2>
 									
 									<p>
-									Each case represents a situation where
+									Each case represents a complex situation where
 									purpose, people, technology and structure
-									needed to come together.
+									needed to become aligned.
+									
+									The focus is not only the solution,
+									but the thinking process behind it.
 									</p>
 									
 									</header>																			
@@ -90,7 +107,7 @@
 
 			<!-- Highlights -->
 				<section id="highlights" class="wrapper style3">
-					<div class="title">The Endorsements</div>
+					<div class="title">Explorations</div>
 					<div class="container">
 						<div class="row aln-center">
 							<div class="col-4 col-12-medium">
@@ -109,7 +126,7 @@
 										within regional technology education.
 										</p>
 									<ul class="actions">
-										<li><a href="#" class="button style1">Learn More</a></li>
+										<li><a href="techkwadraat-zeeland.html" class="button style1">View Case</a></li>
 									</ul>
 								</section>
 							</div>
@@ -124,10 +141,10 @@
 									Developing information structures,
 									parametrisation and decision support
 									to connect engineering expertise
-									with commercial reality.
+									with business decisions.
 									</p>
 									<ul class="actions">
-										<li><a href="#" class="button style1">Learn More</a></li>
+										<li><a href="engineering-intelligence.html" class="button style1">View Case</a></li>
 									</ul>
 								</section>
 							</div>
@@ -144,7 +161,7 @@
 									to technology, operations and guest experience.
 									</p>
 									<ul class="actions">
-										<li><a href="#" class="button style1">Learn More</a></li>
+										<li><a href="hotel-transformation.html" class="button style1">View Case</a></li>
 									</ul>
 								</section>
 							</div>
@@ -242,7 +259,7 @@
 			const to = "sjirk-jan@inspirions.nl";
 			
 			const subject = encodeURIComponent(
-			"The Inspirions Lab - Conversation"
+			"The Inspirions Lab - Exploring a Case"
 			);
 			
 			const body = encodeURIComponent(
@@ -253,7 +270,11 @@
 			
 			const href = `mailto:${to}?subject=${subject}&body=${body}`;
 			
-			document.getElementById("contact-email").href = href;
+			const emailLink = document.getElementById("contact-email");
+
+			if (emailLink) {
+				emailLink.href = href;
+			}
 			</script>
 
 	</body>
