@@ -302,7 +302,113 @@ Turning daily work into reusable knowledge.
 
 
 
-</div>
+			<!-- Footer -->
+				<section id="footer" class="wrapper">
+					<div class="title">Start a Conversation</div>
+					<div class="container">
+						<header class="style1">
+							<h2>
+							Let's explore possibilities.
+							</h2>
+
+							<p>
+							The Inspirions Lab explores how purpose,
+							people, technology and structure can come together
+							to create meaningful progress.
+							</p>
+						</header>
+						<div class="row">
+							<div class="col-6 col-12-medium">
+
+								<!-- Contact Form -->
+									<section>
+										<p>
+										Interested in exploring possibilities?
+										</p>
+										
+										<p>
+										<a href="#contact-email">
+										Start a conversation
+										</a>
+										</p>
+									</section>
+
+							</div>
+							<div class="col-6 col-12-medium">
+
+								<!-- Contact -->
+									<section class="feature-list small">
+										<div class="row">
+											<div class="col-6 col-12-small">
+											<section>
+											    <h3 class="icon solid fa-envelope">
+											    Email
+											    </h3>
+											
+											    <p>
+											    <a id="contact-email" href="#">
+											    Start a conversation
+											    </a>
+											    </p>
+											</section>
+											</div>
+											<div class="col-6 col-12-small">
+												<section>
+													<h3 class="icon brands fa-linkedin">LinkedIn</h3>
+													<p>
+														<a href="https://www.linkedin.com/in/sjirkloogman">www.linkedin.com/in/sjirkloogman</a>
+													</p>
+												</section>
+											</div>
+										</div>
+									</section>
+
+							</div>
+						</div>
+						<div id="copyright">
+							<ul>
+								<li>&copy; The Inspirions Lab</li>
+								<li>
+								Design adapted from 
+								<a href="https://html5up.net">
+								HTML5 UP
+								</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</section>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="../assets/js/jquery.min.js"></script>
+			<script src="../assets/js/jquery.dropotron.min.js"></script>
+			<script src="../assets/js/browser.min.js"></script>
+			<script src="../assets/js/breakpoints.min.js"></script>
+			<script src="../assets/js/util.js"></script>
+			<script src="../assets/js/main.js"></script>
+			<script>
+			const to = "sjirk-jan@inspirions.nl";
+			
+			const subject = encodeURIComponent(
+			"The Inspirions Lab - Exploring a Case"
+			);
+			
+			const body = encodeURIComponent(
+			"Hello Sjirk-Jan,\n\n" +
+			"I would like to explore possibilities with The Inspirions Lab.\n\n" +
+			"Kind regards,"
+			);
+			
+			const href = `mailto:${to}?subject=${subject}&body=${body}`;
+			
+			const emailLink = document.getElementById("contact-email");
+
+			if (emailLink) {
+				emailLink.href = href;
+			}
+			</script>
 
 
 </body>
