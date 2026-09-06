@@ -2933,11 +2933,13 @@ input, select, textarea {
 
 		/* Content */
 
-			#content {
+			#content,
+			#questions-content {
 				padding: 0 0 2em 0;
 			}
 
-				#content header.style1 {
+				#content header.style1,
+				#questions-content header.style1 {
 					padding-bottom: 2.5em;
 				}
 
